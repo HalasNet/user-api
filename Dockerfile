@@ -61,8 +61,8 @@ RUN yum install -y centos-release-scl-rh && \
     yum -y clean all --enablerepo='*'
 
 # Copy the S2I scripts from the specific language image to $STI_SCRIPTS_PATH
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
+#RUN mkdir -p /usr/src/app
+#WORKDIR /usr/src/app
 
 # copying all the files from your file system to container file system
 COPY package.json .
