@@ -14,10 +14,6 @@
     "dev": "webpack --mode development",
     "build": "webpack --mode production"
   },
-  "keywords": [
-    "api",
-    "user"
-  ],
   "author": "salah RKAB",
   "license": "ISC",
   "dependencies": {
